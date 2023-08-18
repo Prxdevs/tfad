@@ -1,0 +1,65 @@
+{
+  "name": "store",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^5.0.4",
+    "@capacitor/cli": "^5.0.4",
+    "@capacitor/core": "^5.0.4",
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@formspree/react": "^2.2.4",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.1",
+    "country-state-city": "^3.0.1",
+    "dotenv": "^8.2.0",
+    "firebase": "^9.6.1",
+    "framer-motion": "^10.16.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "react-id-swiper": "^3.0.0",
+    "react-image-magnify": "^2.7.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.0",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^8.1.0",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^8.130.0",
+    "styled-components": "^5.2.1",
+    "swiper": "^10.0.4",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
