@@ -54,11 +54,11 @@ app.get('/', (req, res) => {
 });
 
 // using routers
-app.use('api/payment', paymentRouter);
-app.use('api/products', productRouter);
-app.use('api/admin', adminRouter);
-app.use('api/orders', orderRouter);
-app.use('api/upload', uploadRouter);
+app.use('/api/payment', paymentRouter);
+app.use('/api/products', productRouter);
+app.use('/api/admin', adminRouter);
+app.use('/api/orders', orderRouter);
+app.use('/api/upload', uploadRouter);
 
 // using other middlewares
 app.use(errorMiddleware);
