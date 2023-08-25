@@ -39,6 +39,15 @@ function App() {
             <Route exact path='/about'>
               <About />
             </Route>
+            <Route exact path='/privacypolicy'>
+              <PrivacyPolicy />
+            </Route>
+            <Route exact path='/termsandconditions'>
+              <TermsAndConditions />
+            </Route>
+            <Route exact path='/refundandcancellation'>
+              <RefundAndCancellation />
+            </Route>
             <Route exact path='/products'>
               <Products />
             </Route>
@@ -62,6 +71,9 @@ function App() {
               <Checkout />
             </PrivateRoute>
             <PrivateRoute exact path='/orders'>
+              <OrdersPage />
+            </PrivateRoute>
+            <PrivateRoute exact path='/shipanddelivery'>
               <OrdersPage />
             </PrivateRoute>
             <PrivateRoute exact path='/profile'>
