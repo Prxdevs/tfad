@@ -19,6 +19,9 @@ import {
   PrivateRoute,
   ProfilePage,
 } from './pages';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
+import RefundAndCancellation from './pages/RefundAndCancellation';
 
 function App() {
   const { isSidebarOpen } = useProductsContext();
